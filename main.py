@@ -102,14 +102,14 @@ def answer(message):
             bot.send_message(message.chat.id, f'У тебя, получается {o4ki*25}/100 о4ков)0)')
             o4ki = 0
 
-    if message.text.lower() == "GYM":
+    if message.text.lower() == "gym":
         bot.send_message(message.chat.id, 'GYM')
         bot.send_message(message.chat.id, 'GYM')
 
     if message.text.lower() == "-ping":
         bot.send_message(message.chat.id, 'Бот в норме')
 
-    if message.text.lower() == "Кто победил ЧГК?":
+    if message.text.lower() == "кто победил ЧГК?":
         bot.send_message(message.chat.id, 'ЧГК победили GYM, а GYM - это империя')
 
 
